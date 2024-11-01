@@ -1,6 +1,7 @@
-<!ELEMENT menu (meal+)>
-<!ELEMENT meal (name, price, description, image)>
+<!ELEMENT menu (item+)>
+<!ELEMENT item (name, description, price, category, image)>
 <!ELEMENT name (#PCDATA)>
-<!ELEMENT price (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
 <!ELEMENT image (#PCDATA)>
